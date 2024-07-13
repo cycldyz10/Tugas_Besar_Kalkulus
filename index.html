@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Persamaan Kuadrat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <h1>Kalkulator Persamaan Kuadrat</h1>
+            <form id="quadratic-form">
+                <div class="input-group">
+                    <label for="a">a:</label>
+                    <input type="number" id="a" required>
+                </div>
+                <div class="input-group">
+                    <label for="b">b:</label>
+                    <input type="number" id="b" required>
+                </div>
+                <div class="input-group">
+                    <label for="c">c:</label>
+                    <input type="number" id="c" required>
+                </div>
+                <button type="submit" class="btn">Hitung</button>
+            </form>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
